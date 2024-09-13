@@ -21,27 +21,30 @@ Awesom high definition map methods collection with detailed interpretations of s
 8. MGMap: Mask-Guided Learning for Online Vectorized HD Map Construction [[code](https://github.com/xiaolul2/MGMap)] [CVPR2024](https://arxiv.org/abs/2404.00876)
 
 9. MapVision: CVPR 2024 Autonomous Grand Challenge Mapless Driving Tech Report [CVPR2024](https://arxiv.org/abs/2406.10125)
-10. HybriMap: Hybrid Clues Utilization for Effective Vectorized HD Map Construction [Arxiv](https://arxiv.org/abs/2404.11155)
+10. LGmap: Local-to-Global Mapping Network for Online Long-Range Vectorized HD Map Construction [CVPR2024](https://arxiv.org/abs/2406.13988)
+11. Leveraging SD Map to Assist the OpenLane Topology [CVPRChallenge2024](https://opendrivelab.github.io/Challenge%202024/mapless_XIAOMIEV.pdf)
+12. UniHDMap: Unified Lane Elements Detection for Topology HD Map Construction [CVPRChallenge2024](https://opendrivelab.github.io/Challenge%202024/mapless_CrazyFriday.pdf)
+13. HybriMap: Hybrid Clues Utilization for Effective Vectorized HD Map Construction [Arxiv](https://arxiv.org/abs/2404.11155)
 
-11. MapTracker: Tracking with Strided Memory Fusion for Consistent Vector HD Mapping [[code](https://github.com/woodfrog/maptracker)] [ECCV2024](https://arxiv.org/abs/2403.15951) **oral**
+14. MapTracker: Tracking with Strided Memory Fusion for Consistent Vector HD Mapping [[code](https://github.com/woodfrog/maptracker)] [ECCV2024](https://arxiv.org/abs/2403.15951) **oral**
 
-12. ADMap: Anti-disturbance framework for reconstructing online vectorized HD map [[code](https://github.com/hht1996ok/ADMap)] [ECCV2024](https://arxiv.org/pdf/2403.15951)
+15. ADMap: Anti-disturbance framework for reconstructing online vectorized HD map [[code](https://github.com/hht1996ok/ADMap)] [ECCV2024](https://arxiv.org/pdf/2403.15951)
 
-13. MapQR: Leveraging Enhanced Queries of Point Sets for Vectorized Map Construction [[code](https://github.com/HXMap/MapQR)] [ECCV2024](https://arxiv.org/pdf/2402.17430)
+16. MapQR: Leveraging Enhanced Queries of Point Sets for Vectorized Map Construction [[code](https://github.com/HXMap/MapQR)] [ECCV2024](https://arxiv.org/pdf/2402.17430)
 
-14. HRMapNet: Enhancing Vectorized Map Perception with Historical Rasterized Maps [[code](https://github.com/HXMap/HRMapNet)] [ECCV2024](https://arxiv.org/abs/2409.00620)
+17. HRMapNet: Enhancing Vectorized Map Perception with Historical Rasterized Maps [[code](https://github.com/HXMap/HRMapNet)] [ECCV2024](https://arxiv.org/abs/2409.00620)
 
-15. Mask2Map: Vectorized HD Map Construction Using Bird’s Eye View Segmentation Masks [[code](https://github.com/SehwanChoi0307/Mask2Map) ,not release] [ECCV2024](https://arxiv.org/pdf/2407.13517)
+18. Mask2Map: Vectorized HD Map Construction Using Bird’s Eye View Segmentation Masks [[code](https://github.com/SehwanChoi0307/Mask2Map) ,not release] [ECCV2024](https://arxiv.org/pdf/2407.13517)
 
-16. MapBEVPrediction: Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention [[code](https://github.com/alfredgu001324/MapBEVPrediction)] [ECCV2024](https://arxiv.org/abs/2407.06683)
+19. MapBEVPrediction: Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention [[code](https://github.com/alfredgu001324/MapBEVPrediction)] [ECCV2024](https://arxiv.org/abs/2407.06683)
 
-17. DTCLMapper: Dual Temporal Consistent Learning for Vectorized HD Map Construction [[code](https://github.com/lynn-yu/DTCLMapper)] [IEEE T-ITS2024](https://arxiv.org/abs/2405.05518)
+20. DTCLMapper: Dual Temporal Consistent Learning for Vectorized HD Map Construction [[code](https://github.com/lynn-yu/DTCLMapper)] [IEEE T-ITS2024](https://arxiv.org/abs/2405.05518)
 
-18. PrevPredMap: Exploring Temporal Modeling with Previous Predictions for Online Vectorized HD Map Construction [[code](https://github.com/pnnnnnnn/PrevPredMap)] [WACV2025](https://arxiv.org/abs/2407.17378)
+21. PrevPredMap: Exploring Temporal Modeling with Previous Predictions for Online Vectorized HD Map Construction [[code](https://github.com/pnnnnnnn/PrevPredMap)] [WACV2025](https://arxiv.org/abs/2407.17378)
 
-19. PriorMapNet: Enhancing Online Vectorized HD Map Construction with Priors [Arxiv](https://www.arxiv.org/abs/2408.08802)
+22. PriorMapNet: Enhancing Online Vectorized HD Map Construction with Priors [Arxiv](https://www.arxiv.org/abs/2408.08802)
 
-20. Neural HD Map Generation from Multiple Vectorized Tiles Locally Produced by Autonomous Vehicles [Arxiv](https://www.arxiv.org/abs/2409.03445)
+23. GNMap: Neural HD Map Generation from Multiple Vectorized Tiles Locally Produced by Autonomous Vehicles [Arxiv](https://www.arxiv.org/abs/2409.03445)
 
 
 #### 2023
@@ -66,15 +69,19 @@ Awesom high definition map methods collection with detailed interpretations of s
 
 ### 1.3 Auxiliary Knowledge or methods (Distillation) 
 
-1. MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill)] [ECCV2024](https://arxiv.org/abs/2407.11682)
+1. 
 
 2. P-MapNet: Far-seeing Map Constructer Enhanced by both SDMap and HDMap Priors [[code](https://github.com/jike5/P-MapNet)] [ICLR2024](https://arxiv.org/abs/2403.10521) (reject)
 
 3. SatForHDMap: Complementing Onboard Sensors with Satellite Map: A New Perspective for HD Map Construction [[code](https://github.com/xjtu-cs-gao/SatforHDMap)] [ICRA2024](https://arxiv.org/pdf/2308.15427)
 
-4. Enhancing Online Road Network Perception and Reasoning with Standard Definition Maps [Arxiv](https://www.arxiv.org/abs/2408.01471)
+4. Leveraging SD Map to Assist the OpenLane Topology CVPR2024
 
-5. Driving with Prior Maps: Unified Vector Prior Encoding for Autonomous Vehicle Mapping [Arxiv](https://arxiv.org/abs/2409.05352v2)
+5. MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill)] [ECCV2024](https://arxiv.org/abs/2407.11682)
+
+6. Enhancing Online Road Network Perception and Reasoning with Standard Definition Maps [Arxiv](https://www.arxiv.org/abs/2408.01471)
+
+7. Driving with Prior Maps: Unified Vector Prior Encoding for Autonomous Vehicle Mapping [Arxiv](https://arxiv.org/abs/2409.05352v2)
 
 
 ## 2. 衍生工作
@@ -94,6 +101,7 @@ Awesom high definition map methods collection with detailed interpretations of s
 ### 2.3 车道线角度角度
 
 1. OpenLane-V2: A Topology Reasoning Benchmark for Unified 3D HD Mapping [[code](https://github.com/OpenDriveLab/OpenLane-V2)] [NeurIPS2023](https://arxiv.org/abs/2304.10440)
+1. Augmenting Lane Perception and Topology Understanding with Standard Definition Navigation Maps [[code](https://github.com/NVlabs/SMERF)] [Arxiv](https://arxiv.org/abs/2311.04079v1)
 
 
 ### 2.4 AIGC相关
