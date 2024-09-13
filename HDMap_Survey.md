@@ -13,36 +13,35 @@ Awesom high definition map methods collection with detailed interpretations of s
 1. StreamMapNet: Streaming Mapping Network for Vectorized Online HD Map Construction [[code](https://github.com/yuantianyuan01/StreamMapNet)] [WACV2024](https://openaccess.thecvf.com/content/WACV2024/papers/Yuan_StreamMapNet_Streaming_Mapping_Network_for_Vectorized_Online_HD_Map_Construction_WACV_2024_paper.pdf)
 
 2. SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation [[code](https://github.com/haomo-ai/SuperFusion)] [ICRA2024](https://arxiv.org/pdf/2211.15656)
+3. MapNeXt: Revisiting Training and Scaling Practices for Online Vectorized HD Map Construction [Arxiv](https://arxiv.org/abs/2401.07323)
+4. Stream Query Denoising for Vectorized HD Map Construction [Arxiv](https://arxiv.org/abs/2401.09112)
+5. EAN-MapNet: Efficient Vectorized HD Map Construction with Anchor Neighborhoods [Arxiv](https://arxiv.org/pdf/2402.18278)
+6. HIMap: HybrId Representation Learning for End-to-end Vectorized HD Map Construction[[code](https://github.com/BritaryZhou/HIMap), not release] [CVPR2024](https://arxiv.org/abs/2403.08639)
+7. MapUncertaintyPrediction: Producing and Leveraging Online Map Uncertainty in Trajectory Prediction [[code](https://github.com/alfredgu001324/MapUncertaintyPrediction)] [CVPR2024](https://arxiv.org/pdf/2403.16439)
+8. MGMap: Mask-Guided Learning for Online Vectorized HD Map Construction [[code](https://github.com/xiaolul2/MGMap)] [CVPR2024](https://arxiv.org/abs/2404.00876)
 
-3. EAN-MapNet: Efficient Vectorized HD Map Construction with Anchor Neighborhoods [Arxiv](https://arxiv.org/pdf/2402.18278)
+9. MapVision: CVPR 2024 Autonomous Grand Challenge Mapless Driving Tech Report [CVPR2024](https://arxiv.org/abs/2406.10125)
+10. HybriMap: Hybrid Clues Utilization for Effective Vectorized HD Map Construction [Arxiv](https://arxiv.org/abs/2404.11155)
 
-4. MGMap: Mask-Guided Learning for Online Vectorized HD Map Construction [[code](https://github.com/xiaolul2/MGMap)] [CVPR2024](https://arxiv.org/abs/2404.00876)
+11. MapTracker: Tracking with Strided Memory Fusion for Consistent Vector HD Mapping [[code](https://github.com/woodfrog/maptracker)] [ECCV2024](https://arxiv.org/abs/2403.15951) **oral**
 
-5. HIMap: HybrId Representation Learning for End-to-end Vectorized HD Map Construction[[code](https://github.com/BritaryZhou/HIMap), not release] [CVPR2024](https://arxiv.org/abs/2403.08639)
+12. ADMap: Anti-disturbance framework for reconstructing online vectorized HD map [[code](https://github.com/hht1996ok/ADMap)] [ECCV2024](https://arxiv.org/pdf/2403.15951)
 
-6. MapVision: CVPR 2024 Autonomous Grand Challenge Mapless Driving Tech Report [CVPR2024](https://arxiv.org/abs/2406.10125)
+13. MapQR: Leveraging Enhanced Queries of Point Sets for Vectorized Map Construction [[code](https://github.com/HXMap/MapQR)] [ECCV2024](https://arxiv.org/pdf/2402.17430)
 
-7. HybriMap: Hybrid Clues Utilization for Effective Vectorized HD Map Construction [Arxiv](https://arxiv.org/abs/2404.11155)
+14. HRMapNet: Enhancing Vectorized Map Perception with Historical Rasterized Maps [[code](https://github.com/HXMap/HRMapNet)] [ECCV2024](https://arxiv.org/abs/2409.00620)
 
-8. MapTracker: Tracking with Strided Memory Fusion for Consistent Vector HD Mapping [[code](https://github.com/woodfrog/maptracker)] [ECCV2024](https://arxiv.org/abs/2403.15951) **oral**
+15. Mask2Map: Vectorized HD Map Construction Using Bird’s Eye View Segmentation Masks [[code](https://github.com/SehwanChoi0307/Mask2Map) ,not release] [ECCV2024](https://arxiv.org/pdf/2407.13517)
 
-9. ADMap: Anti-disturbance framework for reconstructing online vectorized HD map [[code](https://github.com/hht1996ok/ADMap)] [ECCV2024](https://arxiv.org/pdf/2403.15951)
+16. MapBEVPrediction: Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention [[code](https://github.com/alfredgu001324/MapBEVPrediction)] [ECCV2024](https://arxiv.org/abs/2407.06683)
 
-10. MapQR: Leveraging Enhanced Queries of Point Sets for Vectorized Map Construction [[code](https://github.com/HXMap/MapQR)] [ECCV2024](https://arxiv.org/pdf/2402.17430)
+17. DTCLMapper: Dual Temporal Consistent Learning for Vectorized HD Map Construction [[code](https://github.com/lynn-yu/DTCLMapper)] [IEEE T-ITS2024](https://arxiv.org/abs/2405.05518)
 
-11. HRMapNet: Enhancing Vectorized Map Perception with Historical Rasterized Maps [[code](https://github.com/HXMap/HRMapNet)] [ECCV2024](https://arxiv.org/abs/2409.00620)
+18. PrevPredMap: Exploring Temporal Modeling with Previous Predictions for Online Vectorized HD Map Construction [[code](https://github.com/pnnnnnnn/PrevPredMap)] [WACV2025](https://arxiv.org/abs/2407.17378)
 
-12. Mask2Map: Vectorized HD Map Construction Using Bird’s Eye View Segmentation Masks [[code](https://github.com/SehwanChoi0307/Mask2Map) ,not release] [ECCV2024](https://arxiv.org/pdf/2407.13517)
+19. PriorMapNet: Enhancing Online Vectorized HD Map Construction with Priors [Arxiv](https://www.arxiv.org/abs/2408.08802)
 
-13. MapBEVPrediction: Accelerating Online Mapping and Behavior Prediction via Direct BEV Feature Attention [[code](https://github.com/alfredgu001324/MapBEVPrediction)] [ECCV2024](https://arxiv.org/abs/2407.06683)
-
-14. DTCLMapper: Dual Temporal Consistent Learning for Vectorized HD Map Construction [[code](https://github.com/lynn-yu/DTCLMapper)] [IEEE T-ITS2024](https://arxiv.org/abs/2405.05518)
-
-15. PrevPredMap: Exploring Temporal Modeling with Previous Predictions for Online Vectorized HD Map Construction [[code](https://github.com/pnnnnnnn/PrevPredMap)] [WACV2025](https://arxiv.org/abs/2407.17378)
-
-16. PriorMapNet: Enhancing Online Vectorized HD Map Construction with Priors [Arxiv](https://www.arxiv.org/abs/2408.08802)
-
-17. Neural HD Map Generation from Multiple Vectorized Tiles Locally Produced by Autonomous Vehicles [Arxiv](https://www.arxiv.org/abs/2409.03445)
+20. Neural HD Map Generation from Multiple Vectorized Tiles Locally Produced by Autonomous Vehicles [Arxiv](https://www.arxiv.org/abs/2409.03445)
 
 
 #### 2023
@@ -133,3 +132,5 @@ Awesom high definition map methods collection with detailed interpretations of s
 https://github.com/LoveFaFa2333/Awesome-Online-HDMap
 
 https://github.com/Honminden/awesome-hd-map-construction
+
+http://t.csdnimg.cn/WosD6
