@@ -77,7 +77,7 @@ Awesom high definition map methods collection with detailed interpretations of s
 
 4. Leveraging SD Map to Assist the OpenLane Topology CVPR2024
 
-5. MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill)] [ECCV2024](https://arxiv.org/abs/2407.11682)
+5. MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill) ,not release] [ECCV2024](https://arxiv.org/abs/2407.11682)
 
 6. Enhancing Online Road Network Perception and Reasoning with Standard Definition Maps [Arxiv](https://www.arxiv.org/abs/2408.01471)
 
