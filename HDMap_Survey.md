@@ -1,5 +1,3 @@
-# Online High Definition Map相关调研
-
 ## 1. Online HD Map 重点论文
 
 ### 1.1 路线图
