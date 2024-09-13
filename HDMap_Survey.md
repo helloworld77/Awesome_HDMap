@@ -1,10 +1,12 @@
-## 1. Online HD Map 重点论文
+Awesom high definition map methods collection with detailed interpretations of some key papers.
 
-### 1.1 路线图
+### 1. Online HD Map
+
+#### 1.1 Roadmap
 
 ![image-20240911151131406](HDMap_Survey.assets/image-20240911151131406.png)
 
-### 1.2 重点论文列表
+#### 1.2 Paper list
 
 HDMapNet: An Online HD Map Construction and Evaluation Framework [[code](https://github.com/Tsinghua-MARS-Lab/HDMapNet)] ICRA 2022, CVPR 2021
 
@@ -54,9 +56,7 @@ Driving with Prior Maps: Unified Vector Prior Encoding for Autonomous Vehicle Ma
 
 Neural HD Map Generation from Multiple Vectorized Tiles Locally Produced by Autonomous Vehicles
 
-
-
-#### 1.3 蒸馏、辅助知识
+#### 1.3 Auxiliary Knowledge or methods (Distillation) 
 
 MapDistill：Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill)]ECCV 2024.
 
@@ -94,7 +94,7 @@ Edgemap: Crowdsourcing high definition map in automotive edge computing
 
 VI-Map: Infrastructure-Assisted Real-Time HD Mapping for Autonomous Driving
 
-## 3. 资源开销统计
+### 3. 资源开销统计
 
 | 算法        | 训练资源                                                     |
 | ----------- | ------------------------------------------------------------ |
@@ -107,7 +107,7 @@ VI-Map: Infrastructure-Assisted Real-Time HD Mapping for Autonomous Driving
 | P-MapNet    | 4 NVIDIA GeForce RTX 3090 GPUs，基于HDMapNet，所以开销也不高 |
 | MGMap       | 8 NVIDIA Tesla **V100** GPUs bs 8x6                          |
 
-## 4. 参考
+### 4. Reference Repo
 
 https://github.com/LoveFaFa2333/Awesome-Online-HDMap
 
