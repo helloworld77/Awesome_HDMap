@@ -124,16 +124,17 @@ Awesom high definition map methods collection with detailed interpretations of s
 
 ## 3. 资源开销统计
 
-| 算法        | 训练资源                                                     |
-| ----------- | ------------------------------------------------------------ |
-| BEVFormer   | 8 GPUs  后续较多工作都是基于BEVFormer，基本都是8卡起步       |
-| BEVDistill  | 8 NVIDIA A100 GPUs                                           |
-| HDMapNet    | 这篇是属于分割方法论的，所以训练开销明显少一些，bs默认4      |
-| MapTR v1/v2 | 8 NVIDIA GeForce RTX 3090 GPUs                               |
-| MapDistill  | 8 NVIDIA RTX A6000 GPUs                                      |
-| HRMapNet    | 8 NVIDIA A100 GPUs bs 8 × 4                                  |
-| P-MapNet    | 4 NVIDIA GeForce RTX 3090 GPUs，基于HDMapNet，所以开销也不高 |
-| MGMap       | 8 NVIDIA Tesla **V100** GPUs bs 8x6                          |
+| 算法                                 | 训练资源                                                     |
+| ------------------------------------ | ------------------------------------------------------------ |
+| BEVFormer                            | 8 GPUs  后续较多工作都是基于BEVFormer，基本都是8卡起步       |
+| BEVDistill                           | 8 NVIDIA A100 GPUs                                           |
+| <font color=Blue>HDMapNet</font>     | 这篇是属于分割方法论的，所以训练开销明显少一些，bs默认4      |
+| MapTR v1/v2                          | 8 NVIDIA GeForce RTX 3090 GPUs                               |
+| MapDistill                           | 8 NVIDIA RTX A6000 GPUs                                      |
+| HRMapNet                             | 8 NVIDIA A100 GPUs bs 8 × 4                                  |
+| <font color=Blue>P-MapNet</font>     | 4 NVIDIA GeForce RTX 3090 GPUs，基于HDMapNet，所以开销也不高 |
+| <font color=Blue>SuperFusion </font> | 1 NVIDIA A100-40G GPU bs 1x4，也是基于HDMapNet，只支持单卡训练 |
+| MGMap                                | 8 NVIDIA Tesla **V100** GPUs bs 8x6                          |
 
 ## 4. Reference Repo
 
