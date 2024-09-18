@@ -14,7 +14,7 @@ Map elements包含了较强的形状先验，当前Online HDMap的构建方式�
 
   提出了position-guided mask patch refinement（PG-MPR）模块，细粒度的提升点的定位能力，提取特定点的patch信息。
 
-不同模态有10个点的mAP提升，
+和Baseline相比，多模态输入的方法有10+的mAP提升（这里对比的Baseline应该是MapTR）。
 
 ### 引言和相关工作
 

@@ -69,19 +69,17 @@ Awesom high definition map methods collection with detailed interpretations of s
 
 ### 1.3 Auxiliary Knowledge or methods (Distillation) 
 
-1. 
+1. P-MapNet: Far-seeing Map Constructer Enhanced by both SDMap and HDMap Priors [[code](https://github.com/jike5/P-MapNet)] [ICLR2024](https://arxiv.org/abs/2403.10521) (reject)
 
-2. P-MapNet: Far-seeing Map Constructer Enhanced by both SDMap and HDMap Priors [[code](https://github.com/jike5/P-MapNet)] [ICLR2024](https://arxiv.org/abs/2403.10521) (reject)
+2. SatForHDMap: Complementing Onboard Sensors with Satellite Map: A New Perspective for HD Map Construction [[code](https://github.com/xjtu-cs-gao/SatforHDMap)] [ICRA2024](https://arxiv.org/pdf/2308.15427)
 
-3. SatForHDMap: Complementing Onboard Sensors with Satellite Map: A New Perspective for HD Map Construction [[code](https://github.com/xjtu-cs-gao/SatforHDMap)] [ICRA2024](https://arxiv.org/pdf/2308.15427)
+3. Leveraging SD Map to Assist the OpenLane Topology CVPR2024
 
-4. Leveraging SD Map to Assist the OpenLane Topology CVPR2024
+4. MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill) ,not release] [ECCV2024](https://arxiv.org/abs/2407.11682)
 
-5. MapDistill: Boosting Efficient Camera-based HD Map Construction via Camera-LiDAR Fusion Model Distillation [[code](https://github.com/Ricky-Developer/MapDistill) ,not release] [ECCV2024](https://arxiv.org/abs/2407.11682)
+5. Enhancing Online Road Network Perception and Reasoning with Standard Definition Maps [Arxiv](https://www.arxiv.org/abs/2408.01471)
 
-6. Enhancing Online Road Network Perception and Reasoning with Standard Definition Maps [Arxiv](https://www.arxiv.org/abs/2408.01471)
-
-7. Driving with Prior Maps: Unified Vector Prior Encoding for Autonomous Vehicle Mapping [Arxiv](https://arxiv.org/abs/2409.05352v2)
+6. Driving with Prior Maps: Unified Vector Prior Encoding for Autonomous Vehicle Mapping [Arxiv](https://arxiv.org/abs/2409.05352v2)
 
 
 ## 2. 衍生工作
@@ -124,17 +122,20 @@ Awesom high definition map methods collection with detailed interpretations of s
 
 ## 3. 资源开销统计
 
-| 算法                                 | 训练资源                                                     |
-| ------------------------------------ | ------------------------------------------------------------ |
-| BEVFormer                            | 8 GPUs  后续较多工作都是基于BEVFormer，基本都是8卡起步       |
-| BEVDistill                           | 8 NVIDIA A100 GPUs                                           |
-| <font color=Blue>HDMapNet</font>     | 这篇是属于分割方法论的，所以训练开销明显少一些，bs默认4      |
-| MapTR v1/v2                          | 8 NVIDIA GeForce RTX 3090 GPUs                               |
-| MapDistill                           | 8 NVIDIA RTX A6000 GPUs                                      |
-| HRMapNet                             | 8 NVIDIA A100 GPUs bs 8 × 4                                  |
-| <font color=Blue>P-MapNet</font>     | 4 NVIDIA GeForce RTX 3090 GPUs，基于HDMapNet，所以开销也不高 |
-| <font color=Blue>SuperFusion </font> | 1 NVIDIA A100-40G GPU bs 1x4，也是基于HDMapNet，只支持单卡训练 |
-| MGMap                                | 8 NVIDIA Tesla **V100** GPUs bs 8x6                          |
+| 算法                                 | 训练资源                                                     | Modal    |
+| ------------------------------------ | ------------------------------------------------------------ | -------- |
+| BEVFormer                            | 8 GPUs  后续较多工作都是基于BEVFormer，基本都是8卡起步       | c        |
+| BEVDistill                           | 8 NVIDIA A100 GPUs                                           | c+l      |
+| <font color=Blue>HDMapNet</font>     | 这篇是属于分割方法论的，所以训练开销明显少一些，bs默认4      | c+l      |
+| MapTR v1/v2                          | 8 NVIDIA GeForce RTX 3090 GPUs                               | c+l      |
+| MapDistill                           | 8 NVIDIA RTX A6000 GPUs                                      | c+l -> c |
+| HRMapNet                             | 8 NVIDIA A100 GPUs bs 8 × 4                                  | c        |
+| <font color=Blue>P-MapNet</font>     | 4 NVIDIA GeForce RTX 3090 GPUs，基于HDMapNet，所以开销也不高 | c+l      |
+| <font color=Blue>SuperFusion </font> | 1 NVIDIA A100-40G GPU bs 1x4，也是基于HDMapNet，只支持单卡训练 | c+l      |
+| StreamMapNet                         | 8 GTX3090 GPUs bs 8x4                                        | c        |
+| Mask2Map                             | 4 GTX3090 GPUs bs 4x4，效果提升有点夸张                      | c+l      |
+| DTCLMapper                           | 4 NVIDIA RTX A6000 bs 16                                     | c        |
+| PrevPredMap                          | 4 NVIDIA A100 GPUs bs 4x4                                    | c        |
 
 ## 4. Reference Repo
 
