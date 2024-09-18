@@ -16,7 +16,7 @@
 
 因此，Online的HD Map构建方法逐渐成为热点，它通过端到端的在线构建局部高精地图，具有：开销低、自动化程度高；没有更新和扩展的局限性，提供了后续规划控制的便利性。
 
-回顾到本文，MapTR提出了一个端到端的Transformer Online 矢量化HDMap构建方法，对于地图中的element
+回顾到本文，MapTR提出了一个端到端的 Online 矢量化HDMap构建方法，对于地图中的element建模为一组**等价排列**的点集，从而准确描述地图元素形状，稳定训练过程。设计了一种分级Query embedding机制来灵活编码地图元素，通过分级二分图匹配
 
 ### 引言和相关工作
 
@@ -26,7 +26,7 @@
 
   只采用图像分支生成BEV特征，利用他们之前的工作[GKT](onenote:#综述调研&section-id={7FE3ADD0-8305-4D29-B47D-77C6C0B28C9C}&page-id={FE1B94E8-E93D-7F43-A5F0-FCBDB6D72C3A}&object-id={9167445D-D207-C242-840A-DA9478A79630}&1D&base-path=https://d.docs.live.net/a8595e7ec3ee51a3/文档/AI4D/HDMap.one)实现PV2BEV的转换。GKT看起来和BEVFormer的转换方法是比较接近的。不过它的采样不是通过deformable去grid sample的，而是通过投影去查找的。具体先确定一个BEV Query矩阵，通过内外参建立BEV grid和2D像素之间的映射关系，提取核区域的特征，和BEVQuery做cross-attention，得到BEV特征。
 
-  <img src="MapTR.assets/image-20240913163220382.png" alt="image-20240913163220382" style="zoom: 50%;" />
+  <img src="MapTR.assets/image-20240913163220382.png" alt="image-20240913163220382" style="zoom: 33%;" />
 
 * 
 
